@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelaty Life</title>
+    <link rel="stylesheet" href="C:\Users\c3254\OneDrive\Desktop\Pag web/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <!-- Gelatin/Candy themed logo -->
+                        <rect width="32" height="32" rx="8" fill="url(#gradient1)"/>
+                        <!-- Main candy/gelatin shape -->
+                        <ellipse cx="16" cy="12" rx="8" ry="6" fill="white" opacity="0.9"/>
+                        <ellipse cx="16" cy="20" rx="6" ry="4" fill="white" opacity="0.7"/>
+                        <!-- Sparkle effects -->
+                        <circle cx="12" cy="10" r="1.5" fill="white"/>
+                        <circle cx="20" cy="14" r="1" fill="white" opacity="0.8"/>
+                        <circle cx="14" cy="22" r="1" fill="white" opacity="0.6"/>
+                        <!-- Gradient definition -->
+                        <defs>
+                            <linearGradient id="gradient1" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#ff6b9d"/>
+                                <stop offset="0.5" stop-color="#c084fc"/>
+                                <stop offset="1" stop-color="#60a5fa"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="brand-text">Gelaty Life</span>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#parametros-tecnicos" class="nav-link">Parámetros Técnicos</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <button class="btn-primary">Comenzar</button>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    gelatinas saludables pruebalas ya
+                </div>
+                
+                <h1 class="hero-title">
+                    Cuida de tu salud con Gelaty Life
+                    <span class="gradient-text">Hoy</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Gelatinas tanto deliciosas como para el malestar en general
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" id="start-journey">
+                        Comienza tu Viaje con Gelaty Life
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    
+                    <button class="btn-demo" id="watch-demo">
+                        <div class="play-button">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5,3 19,12 5,21"/>
+                            </svg>
+                        </div>
+                        Ver adelanto
+                    </button>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="https://www.instagram.com/gelatylife?igsh=ZGJvbXQ1dWlmM3Jp" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="m16 11.37-4-4-4 4"/>
+                            <path d="M12 3v14"/>
+                        </svg>
+                        <span>@gelatylife</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@gelaty.life?_t=ZS-8xVYCG9N0gD&_r=1" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span>@gelaty.life</span>
+                    </a>
+                    <a href="https://www.facebook.com/share/15YsXKsEzV/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                        <span>Gelaty Life</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características de Gelaty Life</h2>
+                <p class="section-description">
+                    todo lo que tienes que saber de nuestras gelatinas
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de reloj/tiempo para reacción rápida -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Reacción Rápida</h3>
+                    <p class="feature-description">
+                        las gelatinas reaccionan a sus efectos de manera eficaz
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de corazón con pulso para salud/seguridad -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            <path d="M3.22 12h3.44l2.12-2.83L11.9 12l2.12-2.83L16.34 12h3.44"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Es Seguro</h3>
+                    <p class="feature-description">
+                        Es completamente seguro verificado por expertos, 100% seguro
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de hoja/planta para ingredientes naturales -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 20s4-9 6-9 6 9 6 9"/>
+                            <path d="M9 9h6"/>
+                            <path d="M12 2v7"/>
+                            <path d="M6 11c0 2.5 2 4.5 4.5 4.5s4.5-2 4.5-4.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Elaboración Natural</h3>
+                    <p class="feature-description">
+                        Flor de Jamaica con canela y menta - ingredientes 100% naturales
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de estrella brillante para calidad premium -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            <path d="M8 12h8"/>
+                            <path d="M12 8v8"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Calidad Premium</h3>
+                    <p class="feature-description">
+                        Elaboradas con los mejores estándares de calidad y pureza
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de sonrisa/cara feliz para bienestar -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Bienestar Total</h3>
+                    <p class="feature-description">
+                        Mejora tu estado de ánimo y bienestar general de forma deliciosa
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- Icono de dulce/caramelo para sabor delicioso -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                            <path d="M8 12h8"/>
+                            <path d="M12 8v8"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Sabor Irresistible</h3>
+                    <p class="feature-description">
+                        Disfruta de un sabor único que combina dulzura y beneficios para la salud
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Parameters Section -->
+    <section id="parametros-tecnicos" class="technical-parameters">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Parámetros Técnicos</h2>
+                <p class="section-description">
+                    Fundamentos científicos y técnicos que respaldan la excelencia de Gelaty Life
+                </p>
+            </div>
+            
+            <div class="technical-grid">
+                <div class="technical-card">
+                    <div class="technical-icon">
+                        <!-- Icono de cerebro/conocimiento para aplicación técnica -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.07 2.07 0 0 1-2.44-2.44 2.07 2.07 0 0 1-2.44-2.44 2.07 2.07 0 0 1-2.44-2.44A2.5 2.5 0 0 1 2.5 9.5v-5a2.5 2.5 0 0 1 2.5-2.5z"/>
+                            <path d="M14 6.5v10a2.5 2.5 0 0 0 4.96.44 2.07 2.07 0 0 0 2.44-2.44 2.07 2.07 0 0 0 2.44-2.44 2.07 2.07 0 0 0 2.44-2.44A2.5 2.5 0 0 0 21.5 6.5v-1A2.5 2.5 0 0 0 19 3"/>
+                            <path d="M9 12h6"/>
+                            <path d="M9 16h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="technical-title">Aplicación del Conocimiento Técnico</h3>
+                    <p class="technical-description">
+                        Implementación de principios científicos avanzados en la formulación de gelatinas funcionales. 
+                        Aplicamos conocimientos de bioquímica alimentaria, tecnología de gelificación y 
+                        farmacocinética para optimizar la biodisponibilidad de ingredientes activos.
+                    </p>
+                    <div class="technical-details">
+                        <span class="detail-badge">Bioquímica Aplicada</span>
+                        <span class="detail-badge">Tecnología de Gelificación</span>
+                        <span class="detail-badge">Farmacocinética</span>
+                    </div>
+                </div>
+
+                <div class="technical-card">
+                    <div class="technical-icon">
+                        <!-- Icono de engranajes para viabilidad técnica -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6"/>
+                            <path d="m15.5 3.5-1 1m-5 5-1 1m-5 5-1 1"/>
+                            <path d="m20.5 8.5-1 1m-5 5-1 1m-5 5-1 1"/>
+                            <path d="M1 12h6m6 0h6"/>
+                            <path d="m3.5 20.5 1-1m5-5 1-1m5-5 1-1"/>
+                            <path d="m8.5 3.5 1 1m5 5 1 1m5 5 1 1"/>
+                        </svg>
+                    </div>
+                    <h3 class="technical-title">Viabilidad Técnica y Operativa</h3>
+                    <p class="technical-description">
+                        Procesos de producción escalables y eficientes que garantizan consistencia en calidad. 
+                        Sistemas de control de calidad integrados, trazabilidad completa de ingredientes y 
+                        protocolos de manufactura que cumplen con estándares internacionales.
+                    </p>
+                    <div class="technical-details">
+                        <span class="detail-badge">Producción Escalable</span>
+                        <span class="detail-badge">Control de Calidad</span>
+                        <span class="detail-badge">Trazabilidad Total</span>
+                    </div>
+                </div>
+
+                <div class="technical-card">
+                    <div class="technical-icon">
+                        <!-- Icono de hoja/sustentabilidad para impacto alimentario -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v2m0 18v2"/>
+                            <path d="M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42"/>
+                            <path d="M1 12h2m18 0h2"/>
+                            <path d="M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                    </div>
+                    <h3 class="technical-title">Sustentabilidad e Impacto Alimentario</h3>
+                    <p class="technical-description">
+                        Compromiso con prácticas sostenibles en toda la cadena de valor. Ingredientes de origen 
+                        responsable, empaques biodegradables, reducción de huella de carbono y contribución 
+                        positiva a la seguridad alimentaria y nutricional de la comunidad.
+                    </p>
+                    <div class="technical-details">
+                        <span class="detail-badge">Origen Responsable</span>
+                        <span class="detail-badge">Empaques Eco-friendly</span>
+                        <span class="detail-badge">Huella de Carbono Reducida</span>
+                    </div>
+                </div>
+
+                <div class="technical-card">
+                    <div class="technical-icon">
+                        <!-- Icono de innovación/lightbulb para diferenciación -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 21h6"/>
+                            <path d="M12 17v4"/>
+                            <path d="M12 3a6 6 0 0 1 6 6c0 3-2 5.5-2 8H8c0-2.5-2-5-2-8a6 6 0 0 1 6-6z"/>
+                            <path d="M8 13h8"/>
+                            <path d="M10 9h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="technical-title">Innovación y Diferenciación en Alimentos</h3>
+                    <p class="technical-description">
+                        Desarrollo de formulaciones únicas que combinan sabor excepcional con beneficios 
+                        funcionales. Investigación continua en nuevos ingredientes bioactivos, técnicas de 
+                        encapsulación avanzadas y sistemas de liberación controlada de nutrientes.
+                    </p>
+                    <div class="technical-details">
+                        <span class="detail-badge">Formulaciones Únicas</span>
+                        <span class="detail-badge">Ingredientes Bioactivos</span>
+                        <span class="detail-badge">Liberación Controlada</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Metrics -->
+            <div class="technical-metrics">
+                <div class="metric-item">
+                    <div class="metric-number">98%</div>
+                    <div class="metric-label">Biodisponibilidad</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">15min</div>
+                    <div class="metric-label">Tiempo de Acción</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">100%</div>
+                    <div class="metric-label">Ingredientes Naturales</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">0%</div>
+                    <div class="metric-label">Conservantes Artificiales</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Amado por Miles</h2>
+                <p class="section-description">
+                    Mira lo que nuestros increíbles clientes tienen que decir sobre su experiencia con Gelaty Life.
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Gelaty Life ha sido un cambio total para mi familia. Mis hijos las aman y yo me siento tranquila sabiendo que están consumiendo algo natural y beneficioso para su salud."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AG</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Ana García</h4>
+                            <p class="author-role">Madre de Familia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Como atleta, necesito cuidar mucho mi alimentación. Gelaty Life me ofrece una opción deliciosa y saludable que complementa perfectamente mi rutina de bienestar."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CM</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Carlos Mendoza</h4>
+                            <p class="author-role">Deportista Profesional</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Recomiendo Gelaty Life a mis pacientes porque combina sabor excepcional con ingredientes naturales de alta calidad. Es una excelente opción para toda la familia."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ML</div>
+                        <div class="author-info">
+                            <h4 class="author-name">María López</h4>
+                            <p class="author-role">Nutricionista</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para Comenzar?</h2>
+                <p class="cta-description">
+                    Únete a miles de clientes satisfechos que han transformado su bienestar con nuestra innovación alimentaria.
+                </p>
+                
+                <div class="cta-buttons">
+                    <button class="btn-cta-primary">
+                        Prueba Gratuita
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22,4 12,14.01 9,11.01"/>
+                        </svg>
+                    </button>
+                    <button class="btn-cta-secondary">Contactar Especialistas</button>
+                </div>
+                
+                <p class="cta-note">
+                    Sin compromiso • Consulta técnica gratuita • Respaldo científico garantizado
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <!-- Gelatin/Candy themed logo -->
+                            <rect width="32" height="32" rx="8" fill="url(#gradient2)"/>
+                            <!-- Main candy/gelatin shape -->
+                            <ellipse cx="16" cy="12" rx="8" ry="6" fill="white" opacity="0.9"/>
+                            <ellipse cx="16" cy="20" rx="6" ry="4" fill="white" opacity="0.7"/>
+                            <!-- Sparkle effects -->
+                            <circle cx="12" cy="10" r="1.5" fill="white"/>
+                            <circle cx="20" cy="14" r="1" fill="white" opacity="0.8"/>
+                            <circle cx="14" cy="22" r="1" fill="white" opacity="0.6"/>
+                            <!-- Gradient definition -->
+                            <defs>
+                                <linearGradient id="gradient2" x1="0" y1="0" x2="32" y2="32">
+                                    <stop stop-color="#ff6b9d"/>
+                                    <stop offset="0.5" stop-color="#c084fc"/>
+                                    <stop offset="1" stop-color="#60a5fa"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="footer-brand-text">Gelaty Life</span>
+                    </div>
+                    <p class="footer-description">
+                        Innovando el futuro de los alimentos funcionales con base científica y compromiso sustentable.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Producto</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Características</a></li>
+                            <li><a href="#" class="footer-link">Parámetros Técnicos</a></li>
+                            <li><a href="#" class="footer-link">Certificaciones</a></li>
+                            <li><a href="#" class="footer-link">Investigación</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3 class="footer-title">Nosotros</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Acerca de</a></li>
+                            <li><a href="#" class="footer-link">Sustentabilidad</a></li>
+                            <li><a href="#" class="footer-link">Innovación</a></li>
+                            <li><a href="#" class="footer-link">Contacto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3 class="footer-title">Ayuda</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Centro de Ayuda</a></li>
+                            <li><a href="#" class="footer-link">Documentación Técnica</a></li>
+                            <li><a href="#" class="footer-link">Estudios Clínicos</a></li>
+                            <li><a href="#" class="footer-link">Estado</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gelaty Life. Todos los derechos reservados. Construido con ciencia, pasión y precisión.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
