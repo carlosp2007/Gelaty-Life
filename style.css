@@ -256,6 +256,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 .btn-large {
@@ -295,6 +296,44 @@ body {
 .btn-demo:hover .play-button {
     transform: scale(1.1);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #6b7280;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    color: #c084fc;
+}
+
+.social-link svg {
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover svg {
+    transform: scale(1.1);
 }
 
 /* Features Section */
@@ -523,66 +562,6 @@ body {
 .btn-product:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 107, 157, 0.3);
-}
-
-/* Image Instructions */
-.image-instructions {
-    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
-    padding: 3rem;
-    border-radius: 20px;
-    border: 2px dashed #d1d5db;
-    margin-top: 3rem;
-}
-
-.image-instructions h3 {
-    color: #1f2937;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-}
-
-.instructions-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.instruction-item {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-.instruction-item strong {
-    color: #c084fc;
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-.instruction-item a {
-    color: #c084fc;
-    text-decoration: none;
-}
-
-.instruction-item a:hover {
-    text-decoration: underline;
-}
-
-.note {
-    background: rgba(192, 132, 252, 0.1);
-    padding: 1rem;
-    border-radius: 8px;
-    border-left: 4px solid #c084fc;
-    font-size: 0.9rem;
-}
-
-.note code {
-    background: rgba(192, 132, 252, 0.2);
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.8rem;
 }
 
 /* Technical Parameters Section */
@@ -1013,6 +992,15 @@ body {
     .btn-demo {
         justify-content: center;
     }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .social-link {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
     
     .features-grid,
     .testimonials-grid,
@@ -1046,14 +1034,6 @@ body {
     .footer-links {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-    }
-
-    .instructions-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .image-instructions {
-        padding: 2rem;
     }
 }
 
@@ -1091,8 +1071,9 @@ body {
         align-items: stretch;
     }
 
-    .image-instructions {
-        padding: 1.5rem;
+    .social-links {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 }
 
@@ -1105,7 +1086,8 @@ body {
     .btn-primary,
     .btn-demo,
     .btn-product,
-    .nav-link {
+    .nav-link,
+    .social-link {
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
